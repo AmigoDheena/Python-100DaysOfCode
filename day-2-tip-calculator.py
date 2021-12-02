@@ -1,0 +1,7 @@
+bill_amt = input("Enter your Bill amount: ")
+tip = input("Enter tip percentage: ")
+split = input("How many people to split: ")
+amt = int(bill_amt)*int(tip)/int(100)
+whole_amt = int(amt)+int(bill_amt)
+split_amt = int(whole_amt)/int(split)
+print(f"Each person should pay {split_amt}")
